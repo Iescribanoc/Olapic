@@ -70,3 +70,4 @@ Answer:
 
 +After clicking on the modal's picture, a new tab is opened with Olapic's share URL
 
+
