@@ -30,6 +30,8 @@ Answer:
 
 +Every DIV a unique ID
 
++Not to waste time, the API call occurs as soon as the JS file is loaded, but the pictures are loaded into the slider only after the slider div has been loaded. I'm using the function checkReady() for this.
+
 
 3.2 How to make visible only 6 pictures?
 
