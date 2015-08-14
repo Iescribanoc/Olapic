@@ -1,5 +1,4 @@
 
-
 var call = new XMLHttpRequest();
 //var url = "http://photorankapi-a.akamaihd.net?version=v2.2&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18";
 var url = "http://z3photorankapi-a.akamaihd.net/customers/215757/media/recent?auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2";
@@ -10,11 +9,19 @@ call.onreadystatechange = function() {
 call.open("GET", url, true);
 call.send();
 
-
 function callReady(call){
     if (call.readyState == 4 && call.status == 200) {
         var response = JSON.parse(call.responseText);
+
+        checkReady(response);
+    }
+}
+
+function checkReady(response){
+    if (document.getElementById('slider')) {
         callResponsed(response);
+    } else {
+        setTimeout(checkReady, 15);
     }
 }
 
