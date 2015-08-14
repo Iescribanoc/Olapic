@@ -1,9 +1,9 @@
 # Olapic
 Olapic Example
 
-1 What do the client want?
+1 What does the client want?
 
-Answer: I've analysed the site examples mentioned in the email to make an idea of the kind if slider that I was asked to do.
+Answer: I've analysed the site examples mentioned in the email to make an idea of which kind of slider I was asked to do.
 
 
 2 Where to get the necessary data?
@@ -45,7 +45,7 @@ Answer:
 
 +I've set a transaction of 1 second for the element width change
 
-+I check from which ID to which ID is currently visible, and basing on that, I hide the picture on one side, and I show it on the other
++I check from which ID to which ID is currently visible, and basing on that, I hide the picture on one side, and I show it the other one
 
 
 3.4 Highlighted specific picture
