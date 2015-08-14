@@ -46,14 +46,14 @@
 	border-right: 10px solid rgba(128, 128, 128, 0.55);
 }
 .arrow-left:hover {
-	border-right: 10px solid rgba(128, 128, 128, 0.85);
+	border-right: 10px solid rgba(22, 111, 183, 0.85);
 }
 
 .arrow-right { 	
-	border-left:10px solid rgba(128, 128, 128, 0.55); 
+	border-left: 10px solid rgba(128, 128, 128, 0.55); 
 }
 .arrow-right:hover { 	
-	border-left:10px solid rgba(128, 128, 128, 0.85); 
+	border-left: 10px solid rgba(22, 111, 183, 0.85);
 }
 
 #modalView{
