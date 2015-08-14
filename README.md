@@ -2,12 +2,18 @@
 Olapic Example
 
 1. What do the client want?
+
 Answer: I've analysed the site examples mentioned in the email to make an idea of the kind if slider that I was asked to do.
 
+
 2. Where to get the necessary data?
+
 Answer:
+
 +I've tested Olapic's API by calling to this URL "http://photorankapi-a.akamaihd.net?version=v2.2&auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18"
+
 +I've analysed the API response looking for a URL with this pattern: /customers/{id}/media/{sorting}
+
 +I've found out all the media information I needed was located at "http://z3photorankapi-a.akamaihd.net/customers/215757/media/recent?auth_token=0a40a13fd9d531110b4d6515ef0d6c529acdb59e81194132356a1b8903790c18&version=v2.2"
 
 
